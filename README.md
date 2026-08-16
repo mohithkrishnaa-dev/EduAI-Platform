@@ -2,9 +2,11 @@
 
 An AI-assisted web platform for finding, retrieving, and summarizing information from policies, regulations, and government schemes.
 
+**Live Demo:** https://mohith-krishnaa.github.io/EduAI-Platform/
+
 ## Purpose
 
-Government information is often distributed across different portals and documents. EduAI is intended to make that information easier to search and understand through a natural-language interface.
+Government information is often distributed across different portals and documents. EduAI is designed to make that information easier to search and understand through a natural-language interface.
 
 ## Core idea
 
@@ -20,30 +22,26 @@ AI-assisted summarization
 Readable answer + source context
 ```
 
-## Status
+## Features
 
-This repository is an **active project / prototype**. Features and integrations may change as the platform develops.
-
-## Planned focus
-
-- Natural-language search
-- Retrieval from authoritative sources
-- Document and policy summarization
-- Source-aware answers
-- Government scheme discovery
-- Clear separation between retrieved facts and generated summaries
+- AI-oriented natural-language search interface
+- Retrieval/search-oriented workflow
+- Policy and scheme information presentation
+- Document-oriented information discovery
+- Source-aware answer design
+- Interactive browser UI
 
 ## Important design principle
 
-For policy and regulatory information, generated text should not be treated as the source of truth. The application should preserve links or references to the underlying authoritative documents wherever possible.
+For policy and regulatory information, generated text should not be treated as the source of truth. Important answers should be verified against the underlying authoritative documents.
 
 ## Tech stack
 
-The implementation is evolving. See the repository source for the current frontend, backend, and AI components.
+The implementation is browser-based and the current UI is contained in the repository's web source. See the source files for the current implementation details.
 
-## Running the project
+## Live usage
 
-Setup instructions will be documented here as the application architecture stabilizes.
+Open the live demo above to evaluate the interface directly. The repository remains the source for the implementation and documentation.
 
 ## Disclaimer
 
